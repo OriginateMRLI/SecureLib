@@ -1,0 +1,6 @@
+framework module Pods_SecureLib_Example {
+  umbrella header "Pods-SecureLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

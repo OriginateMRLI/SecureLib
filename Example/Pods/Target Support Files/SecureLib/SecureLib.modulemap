@@ -1,0 +1,6 @@
+framework module SecureLib {
+  umbrella header "SecureLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

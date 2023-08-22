@@ -1,0 +1,6 @@
+framework module Pods_SecureLib_Tests {
+  umbrella header "Pods-SecureLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

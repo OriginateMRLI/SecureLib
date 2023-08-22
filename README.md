@@ -22,7 +22,7 @@ pod 'SecureLib'
 
 ## Author
 
-lisw, lishangwei@gwm.cn
+lisw, li2350922931@gmail.com
 
 ## License
 

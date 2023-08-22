@@ -1,0 +1,16 @@
+PODS:
+  - SecureLib (0.1.0)
+
+DEPENDENCIES:
+  - SecureLib (from `../`)
+
+EXTERNAL SOURCES:
+  SecureLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SecureLib: 69eee5e98131e28cd1c0e970d5fa2a21ac867310
+
+PODFILE CHECKSUM: f289cfa5337ffe05c9597dad54762ed7e573950d
+
+COCOAPODS: 1.12.1
