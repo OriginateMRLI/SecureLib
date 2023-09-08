@@ -40,11 +40,11 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		676FBB483272835421BDB4B9 /* Pods_SecureLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecureLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		677A8F7D98C3FE2C064197AF /* Pods-SecureLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureLib_Example.release.xcconfig"; path = "Target Support Files/Pods-SecureLib_Example/Pods-SecureLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		799CF3BA3A6A451CBD3E16F3 /* SecureLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SecureLib.podspec; path = ../SecureLib.podspec; sourceTree = "<group>"; };
+		799CF3BA3A6A451CBD3E16F3 /* SecureLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SecureLib.podspec; path = ../SecureLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A03338936B9FA0625A3588FE /* Pods-SecureLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SecureLib_Tests/Pods-SecureLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B82D301E7409C723774B7D28 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B82D301E7409C723774B7D28 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CF72DD0C1721CA762F2F79D4 /* Pods-SecureLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-SecureLib_Example/Pods-SecureLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E47001FC7BACBBD1EDD1E472 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E47001FC7BACBBD1EDD1E472 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F01A6322125FF637138181A8 /* Pods-SecureLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecureLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-SecureLib_Tests/Pods-SecureLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FC3CE3CD1DC87EC07FDC0F7A /* Pods_SecureLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecureLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 				A03338936B9FA0625A3588FE /* Pods-SecureLib_Tests.debug.xcconfig */,
 				F01A6322125FF637138181A8 /* Pods-SecureLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

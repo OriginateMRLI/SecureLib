@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15D78B67001CA45C93DDBD26CB8ED23F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73B4196E5D4716DCA3780590F6D0C97 /* ReplaceMe.swift */; };
 		62C0241F430160A614243F6FB8F84A0F /* Pods-SecureLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E67B0087D2519A051A17396B0E420BD /* Pods-SecureLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82445D341DECC2D434FADDB01149E4E9 /* SecureLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81FDA113453B116BC5A45157730C3BD2 /* SecureLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8251326D9495C151CA2D5627467D41BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -68,7 +67,6 @@
 		CDEF77F554131D31A95384C4025E2B9B /* Pods-SecureLib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SecureLib_Example"; path = Pods_SecureLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC9E9DAE32E8080B8A903927624CC19 /* SecureLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SecureLib.modulemap; sourceTree = "<group>"; };
 		D83364BD1E6E729F7A3B9689D0C2B71F /* Pods-SecureLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SecureLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E73B4196E5D4716DCA3780590F6D0C97 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SecureLib/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		EA7AA78EBB8EF26BC5B8A5946D2BF390 /* Pods-SecureLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SecureLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		EF8B6F49C2B73B7896D52F5240818B35 /* Pods-SecureLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SecureLib_Example.modulemap"; sourceTree = "<group>"; };
 		EFD512A62A94B351000DCEAE /* SecureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureView.swift; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 		52BF428D0438E326A8AED3B849FDE748 /* SecureLib */ = {
 			isa = PBXGroup;
 			children = (
-				E73B4196E5D4716DCA3780590F6D0C97 /* ReplaceMe.swift */,
 				EFD512A62A94B351000DCEAE /* SecureView.swift */,
 				6B1BDF308BCAD9EA424026788173E982 /* Pod */,
 				CE69A2859ADA1FA6E874FE78E688588A /* Support Files */,
@@ -370,7 +367,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15D78B67001CA45C93DDBD26CB8ED23F /* ReplaceMe.swift in Sources */,
 				EFD512A72A94B351000DCEAE /* SecureView.swift in Sources */,
 				AF0EB4A2B4A907E3D819FC92CD1A5A59 /* SecureLib-dummy.m in Sources */,
 			);
